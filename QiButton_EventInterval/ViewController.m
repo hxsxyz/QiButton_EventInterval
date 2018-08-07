@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  QiButton_TouchInterval
+//  QiButton_EventInterval
 //
 //  Created by QiShare on 2018/8/7.
 //  Copyright © 2018年 QiShare. All rights reserved.
@@ -15,7 +15,7 @@
     
     [super viewDidLoad];
     
-    self.title = @"QiButton_TouchInterval";
+    self.title = @"QiButton_EventInterval";
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.backgroundColor = [UIColor lightGrayColor];

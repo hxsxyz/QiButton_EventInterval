@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0642E3C42119A0E40075156C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3C32119A0E40075156C /* AppDelegate.m */; };
-		0642E3C72119A0E40075156C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3C62119A0E40075156C /* ViewController.m */; };
-		0642E3CC2119A0F60075156C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0642E3CB2119A0F60075156C /* Assets.xcassets */; };
-		0642E3D22119A0F60075156C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3D12119A0F60075156C /* main.m */; };
-		0642E3DA2119DBC60075156C /* UIButton+QiEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3D92119DBC60075156C /* UIButton+QiEventInterval.m */; };
+		0642E3E52119F4220075156C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3DD2119F4220075156C /* AppDelegate.m */; };
+		0642E3E62119F4220075156C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0642E3DE2119F4220075156C /* Assets.xcassets */; };
+		0642E3E72119F4220075156C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0642E3DF2119F4220075156C /* Info.plist */; };
+		0642E3E82119F4220075156C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3E02119F4220075156C /* main.m */; };
+		0642E3E92119F4220075156C /* UIButton+QiEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3E22119F4220075156C /* UIButton+QiEventInterval.m */; };
+		0642E3EA2119F4220075156C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3E42119F4220075156C /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0642E3BF2119A0E40075156C /* QiButton_TouchInterval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiButton_TouchInterval.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0642E3C22119A0E40075156C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0642E3C32119A0E40075156C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0642E3C52119A0E40075156C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0642E3C62119A0E40075156C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0642E3CB2119A0F60075156C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0642E3D02119A0F60075156C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0642E3D12119A0F60075156C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0642E3D82119DBC60075156C /* UIButton+QiEventInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+QiEventInterval.h"; sourceTree = "<group>"; };
-		0642E3D92119DBC60075156C /* UIButton+QiEventInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QiEventInterval.m"; sourceTree = "<group>"; };
+		0642E3BF2119A0E40075156C /* QiButton_EventInterval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiButton_EventInterval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0642E3DC2119F4220075156C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0642E3DD2119F4220075156C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0642E3DE2119F4220075156C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0642E3DF2119F4220075156C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0642E3E02119F4220075156C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0642E3E12119F4220075156C /* UIButton+QiEventInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+QiEventInterval.h"; sourceTree = "<group>"; };
+		0642E3E22119F4220075156C /* UIButton+QiEventInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QiEventInterval.m"; sourceTree = "<group>"; };
+		0642E3E32119F4220075156C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0642E3E42119F4220075156C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,7 @@
 		0642E3B62119A0E40075156C = {
 			isa = PBXGroup;
 			children = (
-				0642E3C12119A0E40075156C /* QiButton_TouchInterval */,
+				0642E3DB2119F4220075156C /* QiButton_EventInterval */,
 				0642E3C02119A0E40075156C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,33 +50,33 @@
 		0642E3C02119A0E40075156C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0642E3BF2119A0E40075156C /* QiButton_TouchInterval.app */,
+				0642E3BF2119A0E40075156C /* QiButton_EventInterval.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0642E3C12119A0E40075156C /* QiButton_TouchInterval */ = {
+		0642E3DB2119F4220075156C /* QiButton_EventInterval */ = {
 			isa = PBXGroup;
 			children = (
-				0642E3C22119A0E40075156C /* AppDelegate.h */,
-				0642E3C32119A0E40075156C /* AppDelegate.m */,
-				0642E3C52119A0E40075156C /* ViewController.h */,
-				0642E3C62119A0E40075156C /* ViewController.m */,
-				0642E3D82119DBC60075156C /* UIButton+QiEventInterval.h */,
-				0642E3D92119DBC60075156C /* UIButton+QiEventInterval.m */,
-				0642E3CB2119A0F60075156C /* Assets.xcassets */,
-				0642E3D02119A0F60075156C /* Info.plist */,
-				0642E3D12119A0F60075156C /* main.m */,
+				0642E3DC2119F4220075156C /* AppDelegate.h */,
+				0642E3DD2119F4220075156C /* AppDelegate.m */,
+				0642E3E32119F4220075156C /* ViewController.h */,
+				0642E3E42119F4220075156C /* ViewController.m */,
+				0642E3E12119F4220075156C /* UIButton+QiEventInterval.h */,
+				0642E3E22119F4220075156C /* UIButton+QiEventInterval.m */,
+				0642E3DE2119F4220075156C /* Assets.xcassets */,
+				0642E3DF2119F4220075156C /* Info.plist */,
+				0642E3E02119F4220075156C /* main.m */,
 			);
-			path = QiButton_TouchInterval;
+			path = QiButton_EventInterval;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0642E3BE2119A0E40075156C /* QiButton_TouchInterval */ = {
+		0642E3BE2119A0E40075156C /* QiButton_EventInterval */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0642E3D52119A0F60075156C /* Build configuration list for PBXNativeTarget "QiButton_TouchInterval" */;
+			buildConfigurationList = 0642E3D52119A0F60075156C /* Build configuration list for PBXNativeTarget "QiButton_EventInterval" */;
 			buildPhases = (
 				0642E3BB2119A0E40075156C /* Sources */,
 				0642E3BC2119A0E40075156C /* Frameworks */,
@@ -85,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = QiButton_TouchInterval;
+			name = QiButton_EventInterval;
 			productName = QiButton_TouchInterval;
-			productReference = 0642E3BF2119A0E40075156C /* QiButton_TouchInterval.app */;
+			productReference = 0642E3BF2119A0E40075156C /* QiButton_EventInterval.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0642E3BA2119A0E40075156C /* Build configuration list for PBXProject "QiButton_TouchInterval" */;
+			buildConfigurationList = 0642E3BA2119A0E40075156C /* Build configuration list for PBXProject "QiButton_EventInterval" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0642E3BE2119A0E40075156C /* QiButton_TouchInterval */,
+				0642E3BE2119A0E40075156C /* QiButton_EventInterval */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0642E3CC2119A0F60075156C /* Assets.xcassets in Resources */,
+				0642E3E72119F4220075156C /* Info.plist in Resources */,
+				0642E3E62119F4220075156C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,10 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0642E3DA2119DBC60075156C /* UIButton+QiEventInterval.m in Sources */,
-				0642E3C72119A0E40075156C /* ViewController.m in Sources */,
-				0642E3D22119A0F60075156C /* main.m in Sources */,
-				0642E3C42119A0E40075156C /* AppDelegate.m in Sources */,
+				0642E3E82119F4220075156C /* main.m in Sources */,
+				0642E3E52119F4220075156C /* AppDelegate.m in Sources */,
+				0642E3EA2119F4220075156C /* ViewController.m in Sources */,
+				0642E3E92119F4220075156C /* UIButton+QiEventInterval.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,12 +265,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QiButton_TouchInterval/Info.plist;
+				INFOPLIST_FILE = QiButton_EventInterval/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.ios.QiButton-TouchInterval";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.ios.QiButton-EventInterval";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -279,12 +281,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QiButton_TouchInterval/Info.plist;
+				INFOPLIST_FILE = QiButton_EventInterval/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.ios.QiButton-TouchInterval";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.ios.QiButton-EventInterval";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,7 +295,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0642E3BA2119A0E40075156C /* Build configuration list for PBXProject "QiButton_TouchInterval" */ = {
+		0642E3BA2119A0E40075156C /* Build configuration list for PBXProject "QiButton_EventInterval" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0642E3D32119A0F60075156C /* Debug */,
@@ -302,7 +304,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0642E3D52119A0F60075156C /* Build configuration list for PBXNativeTarget "QiButton_TouchInterval" */ = {
+		0642E3D52119A0F60075156C /* Build configuration list for PBXNativeTarget "QiButton_EventInterval" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0642E3D62119A0F60075156C /* Debug */,
