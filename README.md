@@ -17,4 +17,4 @@ button.qi_eventInterval = 2.0;
 ```
 
 ### 实现效果
-![](/source/QiButton_EventInterval_01.gif)
+![01](/source/QiButton_EventInterval_01.gif)
