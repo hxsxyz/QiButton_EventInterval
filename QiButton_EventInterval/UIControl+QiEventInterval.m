@@ -1,24 +1,24 @@
 //
-//  UIButton+QiEventInterval.m
+//  UIControl+QiEventInterval.m
 //  QiButton_EventInterval
 //
-//  Created by huangxianshuai on 2018/8/7.
+//  Created by huangxianshuai on 2018/9/12.
 //  Copyright © 2018年 QiShare. All rights reserved.
 //
 
-#import "UIButton+QiEventInterval.h"
+#import "UIControl+QiEventInterval.h"
 #import <objc/runtime.h>
 
 static char * const qi_eventIntervalKey = "qi_eventIntervalKey";
 static char * const eventUnavailableKey = "eventUnavailableKey";
 
-@interface UIButton ()
+@interface UIControl ()
 
 @property (nonatomic, assign) BOOL eventUnavailable;
 
 @end
 
-@implementation UIButton (QiEventInterval)
+@implementation UIControl (QiEventInterval)
 
 + (void)load {
     

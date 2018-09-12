@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIButton+QiEventInterval.h"
+#import "UIControl+QiEventInterval.h"
 
 @implementation ViewController
 

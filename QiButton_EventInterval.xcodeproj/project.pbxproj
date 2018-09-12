@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062B622C2148EF4300ECF4B4 /* UIControl+QiEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 062B622A2148EF4200ECF4B4 /* UIControl+QiEventInterval.m */; };
 		0642E3E52119F4220075156C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3DD2119F4220075156C /* AppDelegate.m */; };
 		0642E3E62119F4220075156C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0642E3DE2119F4220075156C /* Assets.xcassets */; };
 		0642E3E72119F4220075156C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0642E3DF2119F4220075156C /* Info.plist */; };
 		0642E3E82119F4220075156C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3E02119F4220075156C /* main.m */; };
-		0642E3E92119F4220075156C /* UIButton+QiEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3E22119F4220075156C /* UIButton+QiEventInterval.m */; };
 		0642E3EA2119F4220075156C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E3E42119F4220075156C /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		062B622A2148EF4200ECF4B4 /* UIControl+QiEventInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+QiEventInterval.m"; sourceTree = "<group>"; };
+		062B622B2148EF4200ECF4B4 /* UIControl+QiEventInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+QiEventInterval.h"; sourceTree = "<group>"; };
 		0642E3BF2119A0E40075156C /* QiButton_EventInterval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiButton_EventInterval.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0642E3DC2119F4220075156C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0642E3DD2119F4220075156C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0642E3DE2119F4220075156C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0642E3DF2119F4220075156C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0642E3E02119F4220075156C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0642E3E12119F4220075156C /* UIButton+QiEventInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+QiEventInterval.h"; sourceTree = "<group>"; };
-		0642E3E22119F4220075156C /* UIButton+QiEventInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QiEventInterval.m"; sourceTree = "<group>"; };
 		0642E3E32119F4220075156C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0642E3E42119F4220075156C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,8 +62,8 @@
 				0642E3DD2119F4220075156C /* AppDelegate.m */,
 				0642E3E32119F4220075156C /* ViewController.h */,
 				0642E3E42119F4220075156C /* ViewController.m */,
-				0642E3E12119F4220075156C /* UIButton+QiEventInterval.h */,
-				0642E3E22119F4220075156C /* UIButton+QiEventInterval.m */,
+				062B622B2148EF4200ECF4B4 /* UIControl+QiEventInterval.h */,
+				062B622A2148EF4200ECF4B4 /* UIControl+QiEventInterval.m */,
 				0642E3DE2119F4220075156C /* Assets.xcassets */,
 				0642E3DF2119F4220075156C /* Info.plist */,
 				0642E3E02119F4220075156C /* main.m */,
@@ -141,9 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0642E3E82119F4220075156C /* main.m in Sources */,
+				062B622C2148EF4300ECF4B4 /* UIControl+QiEventInterval.m in Sources */,
 				0642E3E52119F4220075156C /* AppDelegate.m in Sources */,
 				0642E3EA2119F4220075156C /* ViewController.m in Sources */,
-				0642E3E92119F4220075156C /* UIButton+QiEventInterval.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
